@@ -7,5 +7,6 @@ body {
 
 .currency-pair-blocks-list {
     display: flex;
+    flex-wrap: wrap;
     padding: $currency-pair-margin;
 }
