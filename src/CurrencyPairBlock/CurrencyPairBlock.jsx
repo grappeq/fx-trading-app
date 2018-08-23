@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SellCurrencyBlock from "../SellCurrencyBlock";
+import BuyCurrencyBlock from "../BuyCurrencyBlock";
+import "./CurrencyPairBlock.scss";
 
 const propTypes = {
     firstCurrencyName: PropTypes.string.isRequired,
@@ -16,6 +18,7 @@ const CurrencyPairBlock = ({ firstCurrencyName, secondCurrencyName, sellPrice, b
         </div>
         <div className="currency-pair-block__content">
             <SellCurrencyBlock currencyName={firstCurrencyName} sellPrice={sellPrice} />
+            <BuyCurrencyBlock currencyName={firstCurrencyName} buyPrice={buyPrice} />
         </div>
     </div>
 );

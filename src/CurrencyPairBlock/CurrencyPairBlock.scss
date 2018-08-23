@@ -1,0 +1,24 @@
+@import "../variables.scss";
+
+.currency-pair-block {
+    width: $currency-block-width*2+100px;
+    background-color: #F0F0F1;
+    border: 1px solid #A5A5A5;
+    margin: $currency-pair-margin;
+
+    &__title {
+        color: #FFFFFF;
+        background-color: #5B5B5C;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    &__content {
+        display: flex;
+        height: 150px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+}

@@ -1,0 +1,11 @@
+@import "./variables";
+
+body {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  background-color: #E8E8E8;
+}
+
+.currency-pair-blocks-list {
+    display: flex;
+    padding: $currency-pair-margin;
+}

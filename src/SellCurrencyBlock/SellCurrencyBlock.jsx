@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CurrencyPrice from '../CurrencyPrice.jsx';
+import CurrencyPrice from '../CurrencyPrice/CurrencyPrice.jsx';
 import './SellCurrencyBlock.scss';
 
 const propTypes = {
