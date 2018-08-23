@@ -1,7 +1,7 @@
 @import "../variables.scss";
 
 .currency-pair-block {
-    width: $currency-block-width*2+100px;
+    width: ($currency-block-width * 2) + $price-change-indicator-width + 40px;
     background-color: #F0F0F1;
     border: 1px solid #A5A5A5;
     margin: $currency-pair-margin;
@@ -20,5 +20,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
+        padding: 5px;
     }
 }

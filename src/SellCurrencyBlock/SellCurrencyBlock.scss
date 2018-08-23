@@ -9,15 +9,14 @@
     background-color: white;
     border-radius: 0 40px 40px 0;
     padding: 5px;
-    margin: 10px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     cursor: pointer;
 
     &:hover {
         color: #FFFFFF;
         border-color: $currency-block-hover-border-color;
         border-width: $currency-block-hover-border-width;
-        background-color: #FF0000;
+        background-color: $color-red;
     }
 
     &__title {

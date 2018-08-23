@@ -1,0 +1,15 @@
+@import "../variables";
+
+.price-change-indicator {
+    flex: 0 0 auto;
+    width: 0;
+    height: 0;
+    box-sizing: content-box;
+    border-left: $price-change-indicator-width solid transparent;
+    border-right: $price-change-indicator-width solid transparent;
+    border-bottom: 30px solid $color-green;
+
+    &--has-fallen {
+        border-bottom-color: $color-red;
+    }
+}
