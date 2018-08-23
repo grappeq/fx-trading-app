@@ -10,6 +10,7 @@
     border-bottom: 30px solid $color-green;
 
     &--has-fallen {
-        border-bottom-color: $color-red;
+        border-top: 30px solid $color-red;
+        border-bottom-width: 0;
     }
 }
