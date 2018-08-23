@@ -1,5 +1,5 @@
 # fx-trading-app
-Small app created as part of a recruitment process to some company
+Small app created as part of some company's recruitment process.
 ## How to run the app
 ```
 npm install
